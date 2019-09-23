@@ -1,0 +1,196 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+  position: relative;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+/* Header */
+header{
+  background: linear-gradient(to left, #e6e2d3, #fff);
+  color:#000000;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom: #c1946a 3px solid;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2; /*pode ser qualquer número a partir de 2*/
+}
+
+header li{
+	display: inline;
+  padding: 0 20px 0 20px;
+  font-size: 17px;
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header .highlight{
+  color:#3e4444;
+}
+
+header nav{
+  overflow: hidden;
+  float:right;
+  margin-top:10px;
+}
+
+header a:hover{
+  font-weight:bold;
+}
+
+header a{
+  text-decoration: none;
+}
+
+/* Showcase */
+
+#cf_image {
+  min-height:400px;
+  margin:0 auto;
+  transition: background-image 1s ease-in-out;
+  background: url(../img/iguana4.jpg);
+  background-repeat: no-repeat;
+  background-size: 1300px auto;
+  
+  color:#ffffff;
+}
+
+/* Imagem que aparece ao passar rato */
+
+#cf_image:hover {
+  background: url(../img/iguana3.jpg);
+  background-repeat: no-repeat;
+  background-size: 1300px auto;
+}
+
+#cf_image h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+  text-align:center;
+}
+
+/* Blockquote main style */
+#cf_image blockquote {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+  padding: 20px 0;
+  width: 100%;
+  max-width: 500px;
+  z-index: 1;
+  margin: 80px auto;
+  align-self: center;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+/* Blockquote texto de dentro */
+#cf_image blockquote h2 {
+  position: relative;
+  color: #FFFFFF;
+  text-shadow: 3px 2px #405d27;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0;
+}
+
+/* Blockquote aspas */
+#cf_image blockquote:after {
+  position: absolute;
+  content: "”";
+  color: rgba(255, 255, 255, 1);
+  font-size: 10rem;
+  line-height: 0;
+  bottom: -43px;
+  right: 30px;
+}
+
+/* Blockquote autor */
+#cf_image blockquote h3{
+  position: relative;
+  color: #ffffff;
+  font-style: italic;
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin: 0;
+  padding-top: 20px;
+}
+
+#description {
+  padding-top:50px;
+  height:630px;
+  background: linear-gradient(to top, #d5e1df, #b5e7a0);
+}
+
+#description h1{
+  color: #006600;
+  text-shadow: 2px 2px #fff;
+}
+
+#description p{
+  color: #000000;
+}
+
+#description img{
+    padding:1px;
+    border:1px solid #021a40;
+}
+
+#curiosities {
+  padding-top:50px;
+  height:500px;
+  background: linear-gradient(to bottom, #d5e1df, #fff);
+}
+
+#curiosities h1{
+  color: #006600;
+  text-shadow: 2px 2px #fff;
+}
+
+#curiosities p{
+  color: #000000;
+}
+
+#curiosities img{
+  padding:1px;
+  border:1px solid #021a40;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:10px;
+  color:#ffffff;
+  background:#3e4444;
+  border-bottom:#c1946a 3px solid;
+  border-top:#c1946a 3px solid;
+}
+
+/* Footer */
+footer{
+  padding:20px;
+  color:#ffffff;
+  background-color:#000000;
+  text-align: center;
+  border-top:#c1946a 3px solid;
+}
+
+
