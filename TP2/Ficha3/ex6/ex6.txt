@@ -1,0 +1,21 @@
+Ex. 6
+a)
+
+Hipótese 1 (tira os espaços a mais):
+//ARQELEM[normalize-space(CONCEL)="Amares"]/IDENTI
+
+
+Hipótese 2:
+//ARQELEM[(CONCEL)=" Amares "]/IDENTI
+
+b)
+
+Hipótese 1 (com repetição de Concelhos):
+/ARQSITS/ARQELEM/CONCEL
+
+Hipótese 2 (sem repetição de Concelhos):
+distinct-values(//CONCEL)
+
+c)
+
+//ARQELEM[normalize-space(CONCEL)="Montalegre"]/DESCRI
