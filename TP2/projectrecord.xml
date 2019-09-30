@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projectrecord SYSTEM "file:/Users/ines/Desktop/DWeb2019/TP2/projectrecord.dtd">
+<projectrecord>
+    <tabname>Project Record 2.0</tabname>
+    <header>
+        <keyname>TP2</keyname>
+        <title>Trabalho Prático 2</title>
+        <subtitle>Desenvolvimento de Aplicações Web</subtitle>
+        <begindate>Setembro 2019</begindate>
+        <enddate>Setembro 2019</enddate>
+        <supervisor href="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </header>
+    <workteam>
+        <member>
+            <name>Inês Alves</name>
+            <number>A81368</number>
+            <email>a81368@alunos.uminho.pt</email>
+            <links>
+                <link href="https://github.com/ineesalvees">GitHub</link>
+            </links>
+        </member>
+    </workteam>
+    <abstract>
+        <paragraph>Este foi o segundo trabalho prático realizado na Unidade Curricular de 
+            <b>Desenvolvimento de Aplicações Web</b></paragraph>
+        <paragraph>Foi construído um documento <i>.dtd</i> tomando como base o seguinte
+            <link href="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/PR.htm">documento</link>
+            documento</paragraph>
+    </abstract>
+    <deliverables>
+        <link href="https://github.com/ineesalvees/DWeb2019"></link>
+    </deliverables>
+    <date>Setembro 2019</date>
+</projectrecord>
