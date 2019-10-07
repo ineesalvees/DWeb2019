@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/ines/Desktop/DWeb2019/TP3/PR/pr.dtd">
+<pr>
+    <metadata>
+        <keyname> DWeb2019_TPC3</keyname>
+        <title> TPC3 - Project Record</title>
+        <subtitle> Unidade Curricular de Desenvolvimento de Aplicações Web</subtitle>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+        <bdate> Outubro 2019</bdate>
+        <edate> Outubro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier> A81368</identifier>
+            <name> Inês Alves</name>
+            <email> a81368@alunos.uminho.pt</email>
+            <git> https://github.com/ineesalvees</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Criação de um ficheiro XSL com o objetivo de transformar o ficheiro pr.xml numa página HTML, ou seja, pr.html.</p>
+        <p>Criação de um ficheiro XSL que visa transformar o ficheiro XML dos arqueossítios em várias páginas HTML, contendo um índice e uma página HTML por cada arqueossítio. Resumidamente, pretende-se fazer um Website para o ficheiro XML dos arqueossítios.</p>
+    </abstract>
+    <deliverables>
+        <deliverable path="Arq/index.html">Website</deliverable>
+    </deliverables>
+</pr>
