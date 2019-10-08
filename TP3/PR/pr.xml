@@ -22,6 +22,6 @@
         <p>Criação de um ficheiro XSL que visa transformar o ficheiro XML dos arqueossítios em várias páginas HTML, contendo um índice e uma página HTML por cada arqueossítio. Resumidamente, pretende-se fazer um Website para o ficheiro XML dos arqueossítios.</p>
     </abstract>
     <deliverables>
-        <deliverable path="Arq/index.html">Website</deliverable>
+        <deliverable path="../Arq/html/index.html">Website</deliverable>
     </deliverables>
 </pr>

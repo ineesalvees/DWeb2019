@@ -70,6 +70,34 @@
         <hr/>
     </xsl:template>
     
+    <xsl:template match ="xref">
+        <a href="{@url}"><xsl:apply-templates/> </a>
+    </xsl:template>
+    
+    <xsl:template match="p">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
+    
+    <xsl:template match="b">
+        <b><xsl:apply-templates/></b>
+    </xsl:template>
+    
+    <xsl:template match="i">
+        <i><xsl:apply-templates/></i>
+    </xsl:template>
+    
+    <xsl:template match="p">
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
+    
+    <xsl:template match="b">
+        <b><xsl:apply-templates/></b>
+    </xsl:template>
+    
+    <xsl:template match="u">
+        <u><xsl:apply-templates/></u>
+    </xsl:template>
+    
     <xsl:template match="worker">
         <ol>
             <xsl:value-of select="identifier"/> -
@@ -95,16 +123,13 @@
     </xsl:template>
     
     <xsl:template match="deliverables">
+        
         <xsl:choose>
             <xsl:when test=".">
                 <hr/>
                 <h3>Deliverables:</h3>
                 <ul>
-                <li>
-                    <a href="{@path}">
-                        <xsl:value-of select="."/>
-                    </a>
-                </li> 
+                    <xsl:apply-templates select="deliverable"/>
                 </ul>
             </xsl:when>
         </xsl:choose> 
@@ -117,5 +142,13 @@
         <p>
             <xsl:apply-templates/>
         </p>
+    </xsl:template>
+    
+    <xsl:template match="deliverable">
+        <li>
+            <a href="{@path}">
+                <xsl:value-of select="."/>
+            </a>
+        </li> 
     </xsl:template>
 </xsl:stylesheet>
