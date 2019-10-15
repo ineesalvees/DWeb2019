@@ -101,10 +101,15 @@
                             </tr>
                         </xsl:when>
                     </xsl:choose>
-                    <tr>
-                        <th>Lugar:</th>
-                        <td><xsl:value-of select="LUGAR"/></td>            
-                    </tr>
+                    <xsl:choose>
+                        <xsl:when test="LUGAR">
+                            <tr>
+                                <th>Lugar:</th>
+                                <td><xsl:value-of select="LUGAR"/></td>            
+                            </tr>
+                        </xsl:when>
+                    </xsl:choose>
+                    
                     
                     <tr>
                         <th>Freguesia:</th>

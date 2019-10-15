@@ -10,7 +10,7 @@
                     <meta charset="UFT-8"/>
                 </head>
                 <body>
-                    <h1>Arqueossítios do Nordeste Português</h1>
+                    <h1><center>Arqueossítios do Nordeste Português</center></h1>
                     <h3>Indice dos Arqueossítios</h3>
                     <ul>
                         <xsl:apply-templates select="//ARQELEM[not(preceding::CONCEL=./CONCEL)]" mode="indice">
