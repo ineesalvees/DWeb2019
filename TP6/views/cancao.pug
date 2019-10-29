@@ -1,0 +1,28 @@
+extends layout
+block content
+  .w3-container
+    h1= c.tit
+    .w3-card-4
+        table.w3-table-all
+            tr   
+                th Provincia
+                td= c.prov
+            tr  
+                th Local
+                td= c.local
+            tr  
+                th Titulo
+                td= c.tit
+            tr  
+                th Musico
+                td= c.musico
+            tr  
+                th Duracao
+                td= c.duracao
+
+    tr           
+    
+    a(href='/update'+c.id) 
+        button.w3-button.w3-circle.w3-light-blue Editar                
+    a(href='/') 
+        button Cancelar
