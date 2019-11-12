@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Lista de Categorias
+    table.w3-table-all
+        tr
+            th Categoria
+        each premio in lista
+            tr
+                td= premio
+               
+    adress
+        a(href="http://localhost:3012/") HomePage
