@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/ines/Desktop/DWeb2019/TP4/PR/pr.dtd">
+<pr>
+    <metadata>
+        <keyname> DWeb2019_TPC4</keyname>
+        <title> TPC4 - Project Record</title>
+        <subtitle> Unidade Curricular de Desenvolvimento de Aplicações Web</subtitle>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+        <bdate> Outubro 2019</bdate>
+        <edate> Outubro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier> A81368</identifier>
+            <name> Inês Alves</name>
+            <email> a81368@alunos.uminho.pt</email>
+            <git> https://github.com/ineesalvees</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Construção de um servidor para o website dos arqueossítios.</p>
+    </abstract>
+    <deliverables>
+      <deliverable path="PR.xsl">PR(XSL) </deliverable>
+      <deliverable path="PR.xml">PR(XML)</deliverable>
+      <deliverable path="PR.html">PR(HTML)</deliverable>
+      <deliverable path="PR.dtd">PR(DTD)</deliverable>
+      <deliverable path="../arq2html.xsl">Stylesheet que transforma o ficheiro XML num ficheiro HTML</deliverable>
+      <deliverable path="../server.js">Servidor</deliverable>
+      <deliverable path="../dataset"> Pasta com os ficheiros XML</deliverable>
+      <deliverable path="../arq.xsl">Stylesheet que processa o ficheiro arq.xml</deliverable>
+    </deliverables>
+</pr>

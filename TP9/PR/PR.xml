@@ -1,0 +1,45 @@
+<!--
+@Author: ines
+@Date:   2019-12-03T14:48:01+00:00
+@Last modified by:   ines
+@Last modified time: 2019-12-03T14:56:54+00:00
+-->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/ines/Desktop/DWeb2019/TP3/PR/PR.dtd">
+<pr>
+    <metadata>
+        <keyname> DWeb2019_TPC9</keyname>
+        <title> TPC9 - Project Record</title>
+        <subtitle> Unidade Curricular de Desenvolvimento de Aplicações Web</subtitle>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+        <bdate> Novembro 2019</bdate>
+        <edate> Novembro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier> A81368</identifier>
+            <name> Inês Alves</name>
+            <email> a81368@alunos.uminho.pt</email>
+            <git> https://github.com/ineesalvees</git>
+        </worker>
+    </workteam>
+    <abstract>
+      <p>Construção de um servidor que separava a API da Interface web.</p>
+
+      <p>Utilizou-se um ficheiro JSON que contém os dados da base de dados necessária:<a href="../compositores.json"> compositores.json</a> .
+      </p>
+    </abstract>
+    <deliverables>
+      <deliverable path="PR.xsl">PR(XSL) </deliverable>
+      <deliverable path="PR.xml">PR(XML)</deliverable>
+      <deliverable path="PR.html">PR(HTML)</deliverable>
+      <deliverable path="PR.dtd">PR(DTD)</deliverable>
+      <deliverable path="../compositores/routes/api.js">Router da API</deliverable>
+      <deliverable path="../compositores/routes/compositores.js">Router da Interface</deliverable>
+      <deliverable path="../compositores/models/compositores.js">Modelo de um compositor </deliverable>
+      <deliverable path="../compositores/controllers/compositores.js">Controlador de compositores</deliverable>
+    </deliverables>
+</pr>

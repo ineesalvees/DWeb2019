@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/ines/Desktop/DWeb2019/TP_10/PR/PR.dtd">
+<pr>
+    <metadata>
+        <keyname> DWeb2019_TPC10</keyname>
+        <title> TPC20 - Project Record</title>
+        <subtitle> Unidade Curricular de Desenvolvimento de Aplicações Web</subtitle>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+        <bdate> Novembro 2019</bdate>
+        <edate> Novembro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier> A81368</identifier>
+            <name> Inês Alves</name>
+            <email> a81368@alunos.uminho.pt</email>
+            <git> https://github.com/ineesalvees</git>
+        </worker>
+    </workteam>
+    <abstract>
+    <p> Este trabalho de casa tinha como objetivo pegar no trabalho desenvolvido na aula prática para fazer upload de vários ficheiros de uma só vez.</p>
+    </abstract>
+    <deliverables>
+    <deliverable path="PR.xsl">PR(XSL) </deliverable>
+    <deliverable path="PR.xml">PR(XML)</deliverable>
+    <deliverable path="PR.html">PR(HTML)</deliverable>
+    <deliverable path="PR.dtd">PR(DTD)</deliverable>
+    <deliverable path="../TP_10/gficheiros/routes/api.js">Router da API</deliverable>
+    <deliverable path="../TP_10/gficheiros/models/ficheiro.js">Modelo de um ficheiro </deliverable>
+    <deliverable path="../TP_10/gficheiros/controllers/ficheiros.js">Controlador de ficheiros</deliverable>
+    <deliverable path="../TP_10/gficheiros/public/javascripts/gficheiros.js"> Javascript para mostrar imagens</deliverable>
+    <deliverable path="../TP_10/gficheiros/views/index.pug">Página inicial onde está a lista de ficheiros e formulário</deliverable>
+    </deliverables>
+</pr>

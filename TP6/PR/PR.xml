@@ -1,0 +1,37 @@
+<!--
+@Author: ines
+@Date:   2019-12-02T23:01:13+00:00
+@Last modified by:   ines
+@Last modified time: 2019-12-02T23:02:47+00:00
+-->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/ines/Desktop/DWeb2019/TP6/PR/pr.dtd">
+<pr>
+    <metadata>
+        <keyname> DWeb2019_TPC3</keyname>
+        <title> TPC6 - Project Record</title>
+        <subtitle> Unidade Curricular de Desenvolvimento de Aplicações Web</subtitle>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+        <bdate> Outubro 2019</bdate>
+        <edate> Outubro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier> A81368</identifier>
+            <name> Inês Alves</name>
+            <email> a81368@alunos.uminho.pt</email>
+            <git> https://github.com/ineesalvees</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Construção de um servido rque permite utilizar as operações CRUD num arquivo sonoro.</p>
+        <p>Para esse efeito foi criado um ficheiro JSON  <xref url="../cancoes.json"> cancoes.json</xref> para ser o armazenamento do arquivo.</p>
+        <p> Para adicionar um id a cada música foi utilizado um nanoid na função definida no ficheiro JS <a href="../addID.js"> adicionar.js</a></p>
+    </abstract>
+    <deliverables>
+        <deliverable path="../Arq/html/index.html">Website</deliverable>
+    </deliverables>
+</pr>

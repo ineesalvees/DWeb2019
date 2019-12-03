@@ -1,0 +1,54 @@
+<!--
+@Author: ines
+@Date:   2019-12-03T14:38:40+00:00
+@Last modified by:   ines
+@Last modified time: 2019-12-03T14:40:46+00:00
+-->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/ines/Desktop/DWeb2019/TP8/PR/PR.dtd">
+<pr>
+    <metadata>
+        <keyname> DWeb2019_TPC8</keyname>
+        <title> TPC8 - Project Record</title>
+        <subtitle> Unidade Curricular de Desenvolvimento de Aplicações Web</subtitle>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+        <bdate> Novembro 2019</bdate>
+        <edate> Novembro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier> A81368</identifier>
+            <name> Inês Alves</name>
+            <email> a81368@alunos.uminho.pt</email>
+            <git> https://github.com/ineesalvees</git>
+        </worker>
+    </workteam>
+    <abstract>
+      <p> Este trabalho de casa encontra-se divido em 2 exercícios:</p>
+
+      <p>No 1.º exercício era pedido para fazer a conversão do <i>dataset</i> disponibilizado em
+         <a href="http://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/fichas/dweb2019-e2.html">página</a> para um outro formato.
+         Foi utilizado o formato <i>JSON</i> para armazenar essa a informação, uma vez que se mostrou ser o formato mais útil.
+         Este ficheiro foi posteriormente importado para o <i>MongoDB</i>
+      </p>
+
+      <p>Já o 2.º exercício consistia na criação de um servidor que permitia gerir a base
+         de dados em causa e, ainda, suportar uma determinada <i>API</i> de dados.
+      </p>
+    </abstract>
+    <deliverables>
+      <deliverable path="PR.xsl">PR(XSL) </deliverable>
+      <deliverable path="PR.xml">PR(XML)</deliverable>
+      <deliverable path="PR.html">PR(HTML)</deliverable>
+      <deliverable path="PR.dtd">PR(DTD)</deliverable>
+      <deliverable path="../prize.json">Ficheiro JSON correspondente à base de dados mencionada acima </deliverable>
+      <deliverable path="../premioNobel/routes/api.js">Router da API</deliverable>
+      <deliverable path="../premioNobel/routes/prizes.js">Router da Interface</deliverable>
+      <deliverable path="../premioNobel/routes/index.js">Roteador da Página Inicial</deliverable>
+      <deliverable path="../premioNobel/models/prizes.js">Modelo de um prémio</deliverable>
+      <deliverable path="../premioNobel/controllers/prizes.js">Controlador dos prémios</deliverable>
+    </deliverables>
+</pr>

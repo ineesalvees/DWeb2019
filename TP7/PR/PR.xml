@@ -1,0 +1,45 @@
+<!--
+@Author: ines
+@Date:   2019-12-03T14:25:42+00:00
+@Last modified by:   ines
+@Last modified time: 2019-12-03T14:41:15+00:00
+-->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/ines/Desktop/DWeb2019/TP7/PR/PR.dtd">
+<pr>
+    <metadata>
+        <keyname> DWeb2019_TPC7</keyname>
+        <title> TPC7 - Project Record</title>
+        <subtitle> Unidade Curricular de Desenvolvimento de Aplicações Web</subtitle>
+        <supervisor homepage="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho</supervisor>
+        <bdate> Novembro 2019</bdate>
+        <edate> Novembro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier> A81368</identifier>
+            <name> Inês Alves</name>
+            <email> a81368@alunos.uminho.pt</email>
+            <git> https://github.com/ineesalvees</git>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>Construção de um servidor que suporta CRUD, direcionado a uma base de dados de filmes.</p>
+    </abstract>
+    <deliverables>
+      <deliverable path="PR.xsl">PR(XSL) </deliverable>
+      <deliverable path="PR.xml">PR(XML)</deliverable>
+      <deliverable path="PR.html">PR(HTML)</deliverable>
+      <deliverable path="PR.dtd">PR(DTD)</deliverable>
+      <deliverable path="../Website/views/layout.pug">Layout de todas as páginas</deliverable>
+      <deliverable path="../Website/views/index.pug">Página inicial</deliverable>
+      <deliverable path="../Website/views/add.pug">Página para adicionar um filme</deliverable>
+      <deliverable path="../Website/views/error.pug">Página de erro</deliverable>
+      <deliverable path="../Website/views/film.pug">Página usada para visualizar um filme em específico</deliverable>
+      <deliverable path="../Website/views/update.pug">Página usada para editar um filme</deliverable>
+      <deliverable path="../Website/routes/filmes.js">Router da aplicação</deliverable>
+    </deliverables>
+</pr>
