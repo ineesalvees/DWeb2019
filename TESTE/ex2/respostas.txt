@@ -1,0 +1,4 @@
+1.	Há 546 entidades
+2.	A referida entidade pertence às seguintes tipologias: tip_ASF e tip_AP
+3.	Participa no processo Registo nacional de condutores (porque “tipoPar” tem o valor “temParticipanteIniciador”
+4.	A entidade é dona da Realização de atividades de formação e treino animal
