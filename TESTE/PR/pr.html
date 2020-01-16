@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><html>
+   <head>
+      <title>Project Record</title>
+      <meta charset="UTF-8"></meta>
+   </head>
+   <body>
+      <h1>
+         <center>Project Record</center>
+      </h1>
+      
+      <hr></hr>
+      <table width="85%" cellpadding="2px">
+         <tr align="left">
+            <th>
+               <b>KEY NAME:</b>
+            </th>
+            <td>DAW2019::Teste::A81368</td>
+            <th>
+               <b>BEGIN DATE:</b>
+            </th>
+            <td>16-01-2020</td>
+         </tr>
+         <tr align="left">
+            <th>
+               <b>TITLE:</b>
+            </th>
+            <td>Teste de DAW</td>
+            <th>
+               <b>END DATE:</b>
+            </th>
+            <td>16-01-2020</td>
+         </tr>
+         <tr align="left">
+            <th>
+               <b>SUPERVISOR:</b>
+            </th>
+            <td>José Carlos Ramalho - 
+               
+               <a href="mailto:jcr@di.uminho.pt">jcr@di.uminho.pt</a> - 
+               
+               <a href="http://www4.di.uminho.pt/~jcr/">Homepage</a>
+            </td>
+         </tr>
+      </table>
+      <hr></hr>
+      
+      <hr></hr>
+      <h3>WorkTeam:</h3>
+      <table width="100%">
+         
+         <tr>
+            <td>
+               <ul>
+                  <li>A81368 - Inês Lucas Amorim Alves - 
+                     
+                     <a href="mailto:a81368@alunos.uminho.pt">a81368@alunos.uminho.pt</a>
+                  </li>
+               </ul>
+            </td>
+            <td>
+               <img src="ines.png" width="30%"></img>
+            </td>
+         </tr>
+         
+      </table>
+      <hr></hr>
+      
+      <hr></hr>
+      <h3>Abstract:</h3>
+      
+      <p> 
+         
+         <b>Exercício 1: Arquivo de Música Digital</b>  
+         
+      </p>
+      
+      <p>
+         Para este exercício, foi feita a persistência MongoDB, tendo sido criada uma base
+         de dados denominada de 
+         <i>obras</i> com uma coleção com o mesmo nome. Para poder correr a API de dados,
+         é necessário executar o seguinte
+         comando: 
+         <b>mongoimport -d obras -c obras --jsonArray arquivo-musica-digital.json</b>.
+         Para isso, foi feita uma conversão de XML para JSON.
+         Depois de gerar o servidor com o Express correndo o comando <i>npx express-generator --view=pug ex1</i> para a porta 5016, foi criada a rota API
+         que efetua os pedidos GET mencionados no enunciado.
+         Não foi necessário efetuar quaisquer alterações ao dataset.
+      </p>
+      
+      <p>
+         
+         <b>Exercício 2: CLAV: Classificação e Avaliação da Informação Pública</b> 
+         
+      </p>
+      
+      <p>
+         Primeiramente, fiz uso do 
+         <i>Postman</i> para efetuar pedidos GET de modo a responder às alíneas propostas, estando a resposta
+         contida no ficheiro respostas.txt. 
+         Posteriormente, criei a interface, em que a página principal
+         correspondia a uma listagem das entidades. Nesta página podemos aceder à informação 
+         de uma dada entidade carregando no seu ID.
+         Por fim, nesta página temos toda a informação mais relevante para o concreto conhecimento da dita entidade.
+         É ainda importante realcer que cada ID tem um click <i>clicable</i> que fornece informações sobre as tipologias
+         a que pertence, de que processos é esta entidade dona ou ainda em que processos participa. Nestes últimos, somos
+         redirecionados para a página oficial do CLAV (http://clav.dglab.gov.pt/classes/consultar/{id}).
+      
+      </p>
+      
+      <hr></hr>
+      
+      <hr></hr>
+      <h3>Deliverables:</h3>
+      <ul>
+         
+         <li>
+            <a href="../ex1/controllers/obras.js">Controller para o ex1 (Obras)</a>
+         </li>
+         
+         <li>
+            <a href="../ex1/models/obra.js">Modelo de uma obra musical</a>
+         </li>
+         
+         <li>
+            <a href="../ex2/views/index.pug">View da página inicial do ex2</a>
+         </li>
+         
+         <li>
+            <a href="../ex2/views/info-entidade.pug">View com a informação de uma dada entidade</a>
+         </li>
+         
+         <li>
+            <a href="../ex2/views/info-tipologia.pug">View com informação de uma dada tipologia</a>
+         </li>
+         
+         <li>
+            <a href="../ex2/routes/index.js">Route da aplicação</a>
+         </li>
+         
+         <li>
+            <a href="../respostas.txt">Respostas às alíneas do ex2</a>
+         </li>
+         
+         <li>
+            <a href="pr.xml">Project Record - XML</a>
+         </li>
+         
+      </ul>
+      <hr></hr>
+      
+   </body>
+</html>

@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal.w3-margin-top
+                h3= tipologia.designacao
+            table.w3-table-all
+                tr 
+                    th ID
+                        td= tipologia.id
+                tr
+                    th Sigla
+                        td= tipologia.sigla
+                tr
+                    th Designação
+                        td= tipologia.designacao
+                    
+
+    footer.w3-container.w3-teal Made by Inês Alves
+            a(href='/')
+                button.w3-button.w3-green.w3-margin Voltar

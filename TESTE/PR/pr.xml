@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>DAW2019::Teste::A81368</keyname>
+        <title>Teste de PRI</title>
+        <bdate>16-01-2020</bdate>
+        <edate>16-01-2020</edate>
+        <supervisor>
+            <name>José Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <homepage>http://www4.di.uminho.pt/~jcr/</homepage>
+        </supervisor>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>A81368</identifier>
+            <name>Inês Lucas Amorim Alves</name>
+            <email>a81368@alunos.uminho.pt</email>
+            <photo path="ines.png"/>
+        </worker>
+    </workteam>
+    <abstract>
+        <p> 
+            <b>API para Publicações:</b>  
+        </p>
+        <p>
+            PPara este exercício, foi feita a persistência MongoDB, tendo sido criada uma base
+         de dados denominada de 
+         <i>obras</i> com uma coleção com o mesmo nome. Para poder correr a API de dados,
+         é necessário executar o seguinte
+         comando: 
+         <b>mongoimport -d obras -c obras --jsonArray arquivo-musica-digital.json</b>.
+         Para isso, foi feita uma conversão de XML para JSON.
+         Depois de gerar o servidor com o Express correndo o comando <i>npx express-generator --view=pug ex1</i> para a porta 5016, foi criada a rota API
+         que efetua os pedidos GET mencionados no enunciado.
+         Não foi necessário efetuar quaisquer alterações ao dataset.
+        </p>
+        <p>
+            <b>xercício 2: CLAV: Classificação e Avaliação da Informação Pública</b> 
+        </p>
+        <p>
+            Primeiramente, fiz uso do 
+         <i>Postman</i> para efetuar pedidos GET de modo a responder às alíneas propostas, estando a resposta
+         contida no ficheiro respostas.txt. 
+         Posteriormente, criei a interface, em que a página principal
+         correspondia a uma listagem das entidades. Nesta página podemos aceder à informação 
+         de uma dada entidade carregando no seu ID.
+         Por fim, nesta página temos toda a informação mais relevante para o concreto conhecimento da dita entidade.
+         É ainda importante realcer que cada ID tem um click <i>clicable</i> que fornece informações sobre as tipologias
+         a que pertence, de que processos é esta entidade dona ou ainda em que processos participa. Nestes últimos, somos
+         redirecionados para a página oficial do CLAV (http://clav.dglab.gov.pt/classes/consultar/{id}).
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="../ex1/controllers/obras.js">Controller para o ex1 (Obras)</deliverable>
+        <deliverable path="../ex1/models/obra.js">Modelo de uma obra musical</deliverable>
+        <deliverable path="../ex2/views/index.pug">View da página inicial do ex2</deliverable>
+        <deliverable path="../ex2/views/info-entidade.pug">View com a informação de uma dada entidade>View com informação de uma entidade</deliverable>
+        <deliverable path="../ex2/views/info-tipologia.pug">View com informação de uma dada tipologia</deliverable>
+        <deliverable path="../ex2/routes/index.js">Route da aplicação</deliverable>
+        <deliverable path="../respostas.txt">Respostas às alíneas do ex2</deliverable>
+        <deliverable path="pr.html">Project Record - HTML</deliverable>
+    </deliverables>
+</pr>

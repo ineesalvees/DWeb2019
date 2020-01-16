@@ -1,0 +1,70 @@
+extends layout
+
+block content
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal.w3-margin-top
+                h3= lista.designacao
+            table.w3-table-all
+                tr
+                    th Estado
+                        td= lista.estado
+                tr
+                    th Sigla
+                        td= lista.sigla
+                tr
+                    th Sioe
+                        td= lista.sioe
+                tr
+                    th Designação
+                        td= lista.designacao
+                tr
+                    th Internacional
+                        td= lista.internacional
+        .w3-card-4
+            header.w3-container.w3-teal.w3-margin-top
+                h3 Tipologias a que pertence:
+            table.w3-table-all
+                tr
+                    th Identificador
+                    th Sigla
+                    th Designação
+                each tip in tips
+                    tr
+                        td
+                            a(href='http://localhost:5016/tipologias/' + tip.id)= tip.id
+                        td= tip.sigla
+                        td= tip.designacao
+        .w3-card-4
+            header.w3-container.w3-teal.w3-margin-top
+                h3 É proprietário dos processos:
+            table.w3-table-all
+                tr
+                    th Identificador
+                    th Código
+                    th Título
+                each processo in lista.dono
+                    tr
+                        td 
+                            a(href='http://clav.dglab.gov.pt/classes/consultar/'+"c"+processo.codigo)= "c"+processo.codigo
+                        td= processo.codigo
+                        td= processo.titulo
+        .w3-card-4
+            header.w3-container.w3-teal.w3-margin-top
+                h3 Participa nos Processos:
+            table.w3-table-all
+                tr
+                    th Identificador
+                    th Código
+                    th Título
+                    th Tipo de Participante
+                each participante in lista.participante
+                    tr
+                        td
+                            a(href='http://clav.dglab.gov.pt/classes/consultar/'+"c"+participante.codigo)= "c"+participante.codigo
+                        td= participante.codigo
+                        td= participante.titulo
+                        td= participante.tipoPar                   
+    footer.w3-container.w3-teal Made by Inês Alves
+            a(href='/')
+                button.w3-button.w3-green.w3-margin Voltar

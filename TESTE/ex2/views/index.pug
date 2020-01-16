@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  .w3-container
+    .w3-card-4
+      header.w3-container.w3-teal.w3-margin-top
+        h3 CLAV: Classificação e Avaliação da Informação Pública
+    .w3-card-4
+      header.w3-container.w3-teal.w3-margin-top
+        h4 Lista de Entidades
+      table.w3-table-all
+        tr
+          th ID
+          th Sigla
+          th Designação
+        each entidade in lista
+                tr
+                    td
+                      a(href="http://localhost:5016/entidades/" + entidade.id)=entidade.id
+                    td= entidade.sigla
+                    td= entidade.designacao
+    footer.w3-container.w3-teal Made by Inês Alves
